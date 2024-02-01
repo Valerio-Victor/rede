@@ -1,0 +1,186 @@
+---
+title: 'REDE DE PESQUISA'
+subtitle: 'Impacto Econômico da GD em Minas Gerais'  
+author: 
+  - 'Victor Valerio'
+date: '`r format(Sys.Date(), "%d-%m-%Y")`'
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+knitr::opts_chunk$set(
+  fig.width = 9, 
+  fig.height = 3.5, 
+  fig.retina = 3,
+  fig.align='center',
+  cache = FALSE,
+  echo = FALSE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = '#18025b',
+  secondary_color = '#18025b',
+  inverse_header_color = '#FFFFFF'
+)
+```
+class: inverse
+# AGENDA
+
+<br>
+
+### Estrutura da Rede
+
+### Desenvolvimento dos Trabalhos 
+
+### Institucional e Oportunidades
+
+---
+# ESTRUTURA DA REDE
+
+```{r, out.width = '90%'}
+knitr::include_graphics(path = '../imgs/img_01.png')
+```
+
+---
+# ESTRUTURA DA REDE
+### Entregas Previstas
+
+.pull-left[
+- **Relatório Técnico**
+  - Quantiadade: 1 
+  
+- **Artigos Periódico**
+  - Quantiadade: 2
+  
+- **Seminário**
+  - Quantiadade: 1 
+]
+
+.pull-right[
+- **Aplicação Web**
+  - Quantiadade: 1 
+  
+- **Vídeos Pitch**
+  - Quantiadade: 10
+]
+
+---
+<div style="text-align: justify">
+# DESENVOLVIMENTO DOS TRABALHOS
+
+- **Núcleo de Modelagem Econômica Regional**: Primeira Reunião para 
+estruturação do Modelo de Equilíbrio Geral Computável (05/02 - 10/02).
+
+<br>
+
+- **Núcleo de Modelagem Financeira**: Envio da análise financeira (choque do Modelo de Equilíbrio Geral Computável)
+
+  - Pessoa Física (Geração na Própria Carga e Autoconsumo Remoto);
+  - Pessoa Jurídica (Geração na Própria Carga e Autoconsumo Remoto por 
+  setor econômico);
+  
+  - Faltando: choques correspondentes para Geração Compartilhada.
+  
+---
+class: inverse
+<div style="text-align: justify">
+### AUTOCONSUMO REMOTO (AR): 
+
+Consumidores de mesma titularidade, Pessoa 
+física ou jurídica (matriz e filial), abastecidos pela mesma concessionária 
+distribuidora, tal que a unidade consumidora com mini ou microgeração 
+distribuída se situa em local diferente das unidades consumidoras a serem 
+compensados os créditos.
+
+### GERAÇÃO COMPARTILHADA (GC): 
+
+Consumidores com Cadastro de Pessoa Física 
+(CPF) e/ou Cadastro Nacional de Pessoa Jurídica (CNPJ) distintos associados por 
+cooperativa, ou consórcio, abastecidos pela mesma concessionária distribuidora, 
+tal que a unidade consumidora com mini ou microgeração distribuída se situa em 
+local diferente das unidades consumidoras a serem compensados os créditos.
+
+### MÚLTIPLAS UNIDADES CONSUMIDORAS (MUC): 
+
+Consumidores localizados em 
+condomínios verticais e/ou horizontais localizados na mesma área da a unidade 
+consumidora com mini ou microgeração distribuída, tal que os créditos são 
+compensados proporcionalmente nas unidades consumidoras individualizadas e nas 
+unidades consumidoras comuns.
+
+---
+<div style="text-align: justify">
+# DESENVOLVIMENTO DOS TRABALHOS
+
+- Contudo, como existem uma série de bolsistas associados ao projeto de pesquisa,
+pensou-se em uma organização adicional de trabalhos de modo a abarcar possíveis 
+teses e dissertações. 
+
+<br>
+
+- Para uma verificação da estrutura inicialmente pensada, clique [**AQUI**](https://docs.google.com/spreadsheets/d/19Sh4bXZSiN2nlnc_kQyY-AxyYaclhJYFdxvWnkIacGk/edit?usp=sharing).
+
+<br>
+- O ideal é que todos estes trabalhos reunidos fomentem o primeiro seminário. 
+A proposta minha **proposta é de que o seminário ocorra na UNIFEI em setembro 
+2024** a partir da reunião de todos estes trabalhos desenvolvidos.
+
+---
+<div style="text-align: justify">
+# INSTITUCIONAL E OPORTUNIDADES
+
+### Relações Institucionais
+- Está sendo firmado um acordo de cooperação com a [**SEDE**](https://www.desenvolvimento.mg.gov.br/inicio/paginas/pagina/51/quem-e-quem).
+
+- Está sendo firmado um acordo de cooperação com duas empresas:
+
+  - [**INOWATT**](https://www.inowatt.com.br/);
+  - [**GREENER**](https://www.greener.com.br/)
+  
+### Oportunidades
+
+- Centro de Certificação em Energia;
+- Pesquisa (MME/BNDES) impacto do ICMS (ou impacto do sistema tributário);
+- Pesquisa (ONS) previsão de Geração;
+- Cartilhas para o estado de Minas Gerais.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
