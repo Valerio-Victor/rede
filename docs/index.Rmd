@@ -54,7 +54,7 @@ class: inverse
 # ESTRUTURA DA REDE
 
 ```{r, out.width = '90%'}
-knitr::include_graphics(path = '../imgs/img_01.png')
+knitr::include_graphics(path = 'img_01.png')
 ```
 
 ---
